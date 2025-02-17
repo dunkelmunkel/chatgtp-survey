@@ -1,0 +1,2037 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE surveyProject SYSTEM "doctype.survey.dtd">
+<surveyProject version="2.4" timestamp="2025-02-17 10:47:39" program="oFb" progversion="3.6.11 1373">
+<title>KI in der Hochschullehre</title>
+<description />
+<attributes.specific program="ofb">
+<attr id="language">deu</attr>
+</attributes.specific>
+<section>
+<title>Nutzung</title>
+<attributes.specific program="ofb">
+<attr id="id">N1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+<question>
+<description>Nutzungshäufigkeit</description>
+<class>select</class>
+<title>Wie oft nutzt du KI-Systeme wie ChatGPT im Studium?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<filter>
+<condition type="any">
+<value id="vOpt">1</value>
+</condition>
+<effect type="+qst">
+<value id="qIS">N103</value>
+</effect>
+</filter>
+<filter>
+<condition type="any">
+<value id="vOpt">2</value>
+<value id="vOpt">3</value>
+<value id="vOpt">4</value>
+<value id="vOpt">5</value>
+<value id="vOpt">6</value>
+<value id="vOpt">7</value>
+<value id="vOpt">-9</value>
+</condition>
+<effect type="+qst">
+<value id="qIS">N106</value>
+</effect>
+</filter>
+<filter>
+<condition type="any">
+<value id="vOpt">2</value>
+<value id="vOpt">3</value>
+<value id="vOpt">4</value>
+<value id="vOpt">5</value>
+<value id="vOpt">6</value>
+<value id="vOpt">7</value>
+<value id="vOpt">-9</value>
+</condition>
+<effect type="+qst">
+<value id="qIS">W102</value>
+</effect>
+</filter>
+<filter>
+<condition type="any">
+<value id="vOpt">2</value>
+<value id="vOpt">3</value>
+<value id="vOpt">4</value>
+<value id="vOpt">5</value>
+<value id="vOpt">6</value>
+<value id="vOpt">7</value>
+<value id="vOpt">-9</value>
+</condition>
+<effect type="+qst">
+<value id="qIS">W202</value>
+</effect>
+</filter>
+<filter>
+<condition type="any">
+<value id="vOpt">2</value>
+<value id="vOpt">3</value>
+<value id="vOpt">4</value>
+<value id="vOpt">5</value>
+<value id="vOpt">6</value>
+<value id="vOpt">7</value>
+<value id="vOpt">-9</value>
+</condition>
+<effect type="+qst">
+</effect>
+</filter>
+<filter>
+<condition type="any">
+<value id="vOpt">2</value>
+<value id="vOpt">3</value>
+<value id="vOpt">4</value>
+<value id="vOpt">5</value>
+<value id="vOpt">6</value>
+<value id="vOpt">7</value>
+<value id="vOpt">-9</value>
+</condition>
+<effect type="+qst">
+</effect>
+</filter>
+<filter>
+<condition type="any">
+<value id="vOpt">2</value>
+<value id="vOpt">3</value>
+<value id="vOpt">4</value>
+<value id="vOpt">5</value>
+<value id="vOpt">6</value>
+<value id="vOpt">7</value>
+<value id="vOpt">-9</value>
+</condition>
+<effect type="+qst">
+</effect>
+</filter>
+<filter>
+<condition type="any">
+<value id="vOpt">2</value>
+<value id="vOpt">3</value>
+<value id="vOpt">4</value>
+<value id="vOpt">5</value>
+<value id="vOpt">6</value>
+<value id="vOpt">7</value>
+<value id="vOpt">-9</value>
+</condition>
+<effect type="+qst">
+<value id="qIS">B102</value>
+</effect>
+</filter>
+<filter>
+<condition type="any">
+<value id="vOpt">2</value>
+<value id="vOpt">3</value>
+<value id="vOpt">4</value>
+<value id="vOpt">5</value>
+<value id="vOpt">6</value>
+<value id="vOpt">7</value>
+<value id="vOpt">-9</value>
+</condition>
+<effect type="-qst">
+</effect>
+</filter>
+<filter>
+<condition type="any">
+<value id="vOpt">2</value>
+<value id="vOpt">3</value>
+<value id="vOpt">4</value>
+<value id="vOpt">5</value>
+<value id="vOpt">6</value>
+<value id="vOpt">7</value>
+<value id="vOpt">-9</value>
+</condition>
+<effect type="+qst">
+</effect>
+</filter>
+<filter>
+<condition type="any">
+<value id="vOpt">2</value>
+<value id="vOpt">3</value>
+<value id="vOpt">4</value>
+<value id="vOpt">5</value>
+<value id="vOpt">6</value>
+<value id="vOpt">7</value>
+<value id="vOpt">-9</value>
+</condition>
+<effect type="+qst">
+</effect>
+</filter>
+<item>
+<text>Nie</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Einmal im Monat oder seltener</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Mehrere Male im Monat</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Einmal pro Woche</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Mehrmals pro Woche</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Einmal am Tag</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Mehrmals am Tag</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Grund nicht genutzt</description>
+<class>checkbox</class>
+<title>Warum hast du KI-Systeme wie ChatGPT noch nicht im Studium verwendet? (Mehrfachwahl möglich)</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+<item>
+<text>Ich wusste nicht, dass solche Anwendungen existieren/ Ich habe noch nicht davon gehört.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich hatte noch keine Gelegenheit, es auszuprobieren.</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich habe Bedenken, z. B. bezüglich Datensicherheit.</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich bin unsicher bezüglich der korrekten Verwendung .</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich habe keine Verwendung für KI-Systeme.</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Mir ist die Nutzung zu zeitaufwendig.</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Die Einarbeitung in die korrekte Nutzung ist mir zu zeitaufwendig.</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich habe gehört, dass die KI schlechte Antworten gibt/ unzuverlässig ist.</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich finde KI-Syteme wie ChatGPT beängstigend.</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich befürchte, dass meine Daten über KI-Systeme wie ChatGPT geleakt werden.</text>
+<attributes.specific program="ofb">
+<attr id="id">10</attr>
+<attr id="pos">10</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Selbstverständlichkeit Nutzung</description>
+<class>scale</class>
+<title>Wie sehr stimmst du diesen Aussagen zu?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">Stimme überhaupt nicht zu</li>
+<li i="2">Stimme nicht zu</li>
+<li i="3">Teils - teils</li>
+<li i="4">Stimme zu</li>
+<li i="5">Stimme voll und ganz zu</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">3</attr>
+<attr id="scale.display">complete</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Die Nutzung von KI-Systemen wie ChatGPT ist für mich selbstverständlich geworden.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Nutzungsabsicht</description>
+<class>scale</class>
+<title>
+<![CDATA[Wie sehr stimmst du diesen Aussagen zu?
+]]>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">Stimme überhaupt nicht zu</li>
+<li i="2">Stimme nicht zu</li>
+<li i="3">Teils - teils</li>
+<li i="4">Stimme zu</li>
+<li i="5">Stimme voll und ganz zu</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+<attr id="scale.display">complete</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Ich möchte KI-Systeme wie ChatGPT gerne beim Lernen nutzen.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich möchte definitiv KI-Systeme wie ChatGPT für mein Studium verwenden.</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich bin sicher, dass KI-Systeme wie ChatGPT zur Unterstützung meines Lernprozesses beitragen.</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich habe die notwendige Ausstattung, um KI-Systeme wie ChatGPT zu nutzen.</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich habe die notwendigen Kenntnisse, um KI-Systeme wie ChatGPT zu benutzen.</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>Wissen</title>
+<attributes.specific program="ofb">
+<attr id="id">W1</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+<question>
+<description>Wissen </description>
+<class>scale</class>
+<title>Wie sehr stimmst du dieser Aussage zu?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">Stimme überhaupt nicht zu</li>
+<li i="2">Stimme nicht zu</li>
+<li i="3">Teils - teils</li>
+<li i="4">Stimme zu</li>
+<li i="5">Stimme voll und ganz zu</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="scale.display">complete</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Ich weiß, dass KI-Systeme wie ChatGPT in ihrer Fähigkeit, komplexe Aufgaben zu lösen, beschränkt sind.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT können Ausgaben erzeugen, die sachlich falsch sind.</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT können Ausgaben erzeugen, die im gegebenen Kontext unpassend sind.</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT können Vorurteile und Ungerechtigkeiten in ihren Ausgaben aufweisen.</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT können sich zu sehr auf Statistiken stützen, was ihren Nutzen in bestimmten Kontexten einschränken kann.</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT sind begrenzt in ihrer emotionalen Intelligenz und ihrem Einfühlungsvermögen, was zu unsensiblen oder unangemessen Ausgaben führen kann.</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT können durch schädlichen Input nicht derart beeinflusst werden, dass dadurch die Ausgabe verzerrt oder manipuliert wird.</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich denke, es ist wichtig, die Fakten und generierten Informationen von KI-Systemen wie ChatGPT zu validieren und zu überprüfen, bevor sie für Aufgaben im Studium verwendet werden.</text>
+<fixed>yes</fixed>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Wissen Überprüfung </description>
+<class>scale</class>
+<title>Wie sehr stimmst du diesen Aussagen zu?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">Stimme überhaupt nicht zu</li>
+<li i="2">Stimme nicht zu</li>
+<li i="3">Teils - teils</li>
+<li i="4">Stimme zu</li>
+<li i="5">Stimme voll und ganz zu</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+<attr id="scale.display">complete</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Ich überprüfe die Antworten, die mir KI-Systeme wie ChatGPT ausgeben.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>Wahrnehmung</title>
+<attributes.specific program="ofb">
+<attr id="id">W2</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+<question>
+<description>Wahrnehmung Chan </description>
+<class>scale</class>
+<title>Wie sehr stimmst du diesen Aussagen zu?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">Stimme überhaupt nicht zu</li>
+<li i="2">Stimme nicht zu</li>
+<li i="3">Teils - teils</li>
+<li i="4">Stimme zu</li>
+<li i="5">Stimme voll und ganz zu</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="scale.display">complete</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Die Integration von KI-Systemen wie ChatGPT in die Hochschulbildung wird sich langfristig positiv auf das Lehren und Lernen auswirken.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Die Hochschuleinrichtungen sollten über einen Plan für den Umgang mit den potenziellen Risiken, die mit dem Einsatz von KI-Systemen wie ChatGPT entstehen, verfügen.</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Die Studierenden müssen lernen, wie sie KI-Systeme wie ChatGPT gut für ihr Studium nutzen können.</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich glaube, dass die Verwendung von KI-Systemen wie ChatGPT die Originalität und Kreativität Studierender beim Schreiben von Aufsätzen oder Antworten verbessern kann.</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich glaube, KI-Systeme wie ChatGPT können die digitale Kompetenz von Studierenden verbessern.</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich glaube, dass KI-Systeme wie ChatGPT Studierenden helfen können, Zeit zu sparen.</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich denke, KI-Systeme wie ChatGPT können Studierenden helfen, bessere Texte zu schreiben.</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT bieten eine Umgebung, in der Studierende offen über ihre Fragen sprechen können, ohne sich verurteilt zu fühlen.</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich denke, KI-Systeme wie ChatGPT sind ein großartiges Werkzeug für die Unterstützung von Studierenden aufgrund der gegebenen Anonymität.</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Wahrnehmung Nutzen </description>
+<class>scale</class>
+<title>Wie sehr stimmst du diesen Aussagen zu?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">Stimme überhaupt nicht zu</li>
+<li i="2">Stimme nicht zu</li>
+<li i="3">Teils - teils</li>
+<li i="4">Stimme zu</li>
+<li i="5">Stimme voll und ganz zu</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+<attr id="scale.display">complete</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Der Einsatz von KI-Systemen wie ChatGPT ermöglicht es mir, Aufgaben schneller zu erledigen.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Der Einsatz von KI-Systemen wie ChatGPT verbessert meine Leistung.</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Der Einsatz von KI-Systemen wie ChatGPT erhöht meine Produktivität.</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Der Einsatz von KI-Systemen wie ChatGPT steigert meine Effektivität.</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Die Verwendung von KI-Systemen wie ChatGPT wird meine Schreib-/Programmierfähigkeiten verbessern.</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT werden zu einem höheren Maß an Engagement in meinen Fächern führen.</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT werden das Lösen von Schreib-/Programmieraufgaben erleichtern und zu einer besseren Erfahrung beitragen.</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT helfen mir, mehr über Technologie und über für mich relevante Themen zu lernen.</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Die Verwendung von KI-Systemen wie ChatGPT macht das Lernen zu einer besseren Erfahrung.</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT sind eine hilfreiche und effektive Technologie zum Lernen.</text>
+<attributes.specific program="ofb">
+<attr id="id">10</attr>
+<attr id="pos">10</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT sind  eine gute ergänzende Lernquelle.</text>
+<attributes.specific program="ofb">
+<attr id="id">11</attr>
+<attr id="pos">11</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich glaube, dass KI-Systeme wie ChatGPT für mein Studium nützlich sind.</text>
+<attributes.specific program="ofb">
+<attr id="id">12</attr>
+<attr id="pos">12</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Mit KI-Systemen wie ChatGPT erhöhe ich meine Chancen darauf, wichtige Dinge in meinem Studium zu erreichen.</text>
+<attributes.specific program="ofb">
+<attr id="id">13</attr>
+<attr id="pos">13</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Mit KI-Systemen wie ChatGPT kann ich Aufgaben und Projekte in meinem Studium schneller erledigen.</text>
+<attributes.specific program="ofb">
+<attr id="id">14</attr>
+<attr id="pos">14</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>Bewertungen</title>
+<attributes.specific program="ofb">
+<attr id="id">B1</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+<question>
+<description>Bewertung Soziales</description>
+<class>scale</class>
+<title>Wie sehr stimmst du diesen Aussagen zu?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">Stimme überhaupt nicht zu</li>
+<li i="2">Stimme nicht zu</li>
+<li i="3">Teils - teils</li>
+<li i="4">Stimme zu</li>
+<li i="5">Stimme voll und ganz zu</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">1</attr>
+<attr id="scale.display">complete</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Ich bin begeistert von den Fähigkeiten von KI-Systemen wie ChatGPT.</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT sind besser als Suchmaschinen wie Google.</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Meine Hochschule organisiert Kurse, in denen ich mehr über KI-Systeme wie ChatGPT lernen kann.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Meine Eltern ermutigen mich, an innovativen KI-Lernaktivitäten teilzunehmen.</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Meine Lehrkräfte erwarten von mir, dass ich mehr über KI-Systeme wie ChatGPT lerne.</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich wünsche mir, dass es an meiner Hochschule Kurse zur Nutzung von KI-Systemen wie ChatGPT gibt.</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Bewertung Erklärungen</description>
+<class>scale</class>
+<title>Wie sehr stimmst du diesen Aussagen zu?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">Stimme überhaupt nicht zu</li>
+<li i="2">Stimme nicht zu</li>
+<li i="3">Teils - teils</li>
+<li i="4">Stimme zu</li>
+<li i="5">Stimme voll und ganz zu</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+<attr id="scale.display">complete</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>KI-Systeme wie ChatGPT liefern gute Erklärungen.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Die Antworten von KI-Systemen wie ChatGPT sind gut strukturiert.</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT sind einfach zu bedienen.</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Die Nutzung von KI-Systemen wie ChatGPT ist für mich einfach zu erlernen.</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Meine Interaktion mit KI-Systemen wie ChatGPT ist klar und verständlich.</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich finde KI-Systeme wie ChatGPT einfach zu benutzen.</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Es ist einfach für mich, geschickt mit KI-Systemen wie ChatGPT umzugehen.</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT zu benutzen macht Spaß.</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>Prüfungen</title>
+<attributes.specific program="ofb">
+<attr id="id">P1</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+<question>
+<description>Prüfungen Häufigkeit</description>
+<class>select</class>
+<title>Wie oft hast du KI-Systeme wie ChatGPT in Prüfungskontexten genutzt?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<filter>
+<condition type="any">
+<value id="vOpt">2</value>
+<value id="vOpt">3</value>
+<value id="vOpt">4</value>
+<value id="vOpt">5</value>
+<value id="vOpt">6</value>
+<value id="vOpt">-9</value>
+</condition>
+<effect type="+qst">
+<value id="qIS">P102</value>
+</effect>
+</filter>
+<item>
+<text>Nie</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Sehr selten</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Selten</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Gelegentlich</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Häufig</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Sehr häufig</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Prüfungen Verbesserung</description>
+<class>scale</class>
+<title>Wie sehr stimmst du diesen Aussagen zu?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">Stimme überhaupt nicht zu</li>
+<li i="2">Stimme nicht zu</li>
+<li i="3">Teils - teils</li>
+<li i="4">Stimme zu</li>
+<li i="5">Stimme voll und ganz zu</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+<attr id="scale.display">complete</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Ich habe den Eindruck, dass ich meinen Prüfungserfolg mit Hilfe von KI Systemen wie ChatGPT verbessert habe.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Prüfungen Hochschulen</description>
+<class>scale</class>
+<title>Wie sehr stimmst du diesen Aussagen zu?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">Stimme überhaupt nicht zu</li>
+<li i="2">Stimme nicht zu</li>
+<li i="3">Teils - teils</li>
+<li i="4">Stimme zu</li>
+<li i="5">Stimme voll und ganz zu</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">3</attr>
+<attr id="scale.display">complete</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Ich sehe grundsätzlich mehr Chancen als Risiken der Nutzung von KI-Systemen wie ChatGPT in Prüfungen.</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Es sollte Regelungen zur Verwendung von KI- Systemen wie ChatGPT in Prüfungsleistungen geben.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Die Bildungseinrichtungen sollten sich möglichst offen zur Nutzung von KI-Systemen wie ChatGPT in Prüfungen zeigen.</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Die Nutzung von KI-Systemen wie ChatGPT sollte in Prüfungen untersagt werden.</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Die Bildungseinrichtungen sollten die gängigen Prüfungsformen ändern, um die Nutzung von KI-Systemen wie ChatGPT zu erschweren.</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>Bedenken</title>
+<attributes.specific program="ofb">
+<attr id="id">B2</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+<question>
+<description>Bedenken </description>
+<class>scale</class>
+<title>Wie sehr stimmst du diesen Aussagen zu?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<labels>
+<li i="1">Stimme überhaupt nicht zu</li>
+<li i="2">Stimme nicht zu</li>
+<li i="3">Teils - teils</li>
+<li i="4">Stimme zu</li>
+<li i="5">Stimme voll und ganz zu</li>
+</labels>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="scale.display">complete</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Ich bin besorgt darüber, dass einige Studierende KI-Systeme wie ChatGPT benutzen, um bei Aufgaben im Studium weiterzukommen.</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Die Verwendung von KI-Systemen wie ChatGPT zur Erledigung von Aufgaben untergräbt den Wert einer Hochschulausbildung.</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>KI-Systeme wie ChatGPT werden Gelegenheiten für Studierende mit anderen zu interagieren und Kontakte zu knüpfen, einschränken.</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Studierende können sich zu sehr auf die KI-Systeme wie ChatGPT verlassen.</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich habe Bedenken bzgl. unethischer, unehrlicher und unverantwortlicher Nutzung von KI-Systemen wie ChatGPT, zum Beispiel Betrug und Plagiat.</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich habe Bedenken bzgl. Fehlinformationen oder Vorurteilen in den Ausgaben von KI-Systemen wie ChatGPT.</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich habe Bedenken bzgl. der Auswirkungen von KI-Systemen wie ChatGPT auf den Arbeitsmarkt und die Gesellschaft.</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich habe Bedenken, dass KI-Systeme wie ChatGPT die Entwicklung wesentlicher Fähigkeiten behindern.</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Studierende verfügen möglicherweise nicht über ausreichende Kenntnisse, um die Zuverlässigkeit der von KI-Systemen wie ChatGPT generierten Informationen zu erkennen.</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Ich habe Bedenken, dass meine Daten über KI-Systeme wie ChatGPT geleakt werden.</text>
+<attributes.specific program="ofb">
+<attr id="id">10</attr>
+<attr id="pos">10</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>Person</title>
+<attributes.specific program="ofb">
+<attr id="id">P2</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+<question>
+<description>Alter</description>
+<class>text</class>
+<title>Wie alt bist du?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text />
+<suffix>Jahre</suffix>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Geschlecht</description>
+<class>select</class>
+<title>Welches Geschlecht hast du?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Männlich</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Weiblich</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Divers</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Studienfach</description>
+<class>select</class>
+<title>Was ist dein Studiengebiet? (Falls du mehrere Fächer studierst, dann kreuze dein Hauptfach oder Lieblingsfach an.)</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Angewandte Naturwissenschaften, interdisziplinär</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Architektur</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Bauingenieurwesen</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Biochemie</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Biologie/Biowissenschaften</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Biotechnologie</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>BWL</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Chemie</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Chemieingenieurwesen/ Angewandte Chemie</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Elektrotechnik und Informationstechnik</text>
+<attributes.specific program="ofb">
+<attr id="id">10</attr>
+<attr id="pos">10</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Energietechnik</text>
+<attributes.specific program="ofb">
+<attr id="id">12</attr>
+<attr id="pos">11</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Erziehungswissenschaft</text>
+<attributes.specific program="ofb">
+<attr id="id">13</attr>
+<attr id="pos">12</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Geografie</text>
+<attributes.specific program="ofb">
+<attr id="id">14</attr>
+<attr id="pos">13</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Germanistik</text>
+<attributes.specific program="ofb">
+<attr id="id">15</attr>
+<attr id="pos">14</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Informatik</text>
+<attributes.specific program="ofb">
+<attr id="id">16</attr>
+<attr id="pos">15</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Jura</text>
+<attributes.specific program="ofb">
+<attr id="id">17</attr>
+<attr id="pos">16</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Maschinenbau </text>
+<attributes.specific program="ofb">
+<attr id="id">19</attr>
+<attr id="pos">17</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Mathematik</text>
+<attributes.specific program="ofb">
+<attr id="id">20</attr>
+<attr id="pos">18</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Mechatronik</text>
+<attributes.specific program="ofb">
+<attr id="id">21</attr>
+<attr id="pos">19</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Medizin </text>
+<attributes.specific program="ofb">
+<attr id="id">22</attr>
+<attr id="pos">20</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Medizintechnik</text>
+<attributes.specific program="ofb">
+<attr id="id">23</attr>
+<attr id="pos">21</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Pflegewissenschaft</text>
+<attributes.specific program="ofb">
+<attr id="id">24</attr>
+<attr id="pos">22</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Pharmazie</text>
+<attributes.specific program="ofb">
+<attr id="id">25</attr>
+<attr id="pos">23</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Physik</text>
+<attributes.specific program="ofb">
+<attr id="id">26</attr>
+<attr id="pos">24</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Physikalische Technik</text>
+<attributes.specific program="ofb">
+<attr id="id">27</attr>
+<attr id="pos">25</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Politikwissenschaft/ Sozialwissenschaften</text>
+<attributes.specific program="ofb">
+<attr id="id">28</attr>
+<attr id="pos">26</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Psychologie </text>
+<attributes.specific program="ofb">
+<attr id="id">29</attr>
+<attr id="pos">27</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Romanistik </text>
+<attributes.specific program="ofb">
+<attr id="id">30</attr>
+<attr id="pos">28</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Soziale Arbeit</text>
+<attributes.specific program="ofb">
+<attr id="id">31</attr>
+<attr id="pos">29</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Sport/ Sportwissenschaft</text>
+<attributes.specific program="ofb">
+<attr id="id">32</attr>
+<attr id="pos">30</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Umweltingeneurwesen </text>
+<attributes.specific program="ofb">
+<attr id="id">33</attr>
+<attr id="pos">31</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Verfahrenstechnik </text>
+<attributes.specific program="ofb">
+<attr id="id">34</attr>
+<attr id="pos">32</attr>
+</attributes.specific>
+</item>
+<item>
+<text>VWL</text>
+<attributes.specific program="ofb">
+<attr id="id">35</attr>
+<attr id="pos">33</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Werkstofftechnik/ Materialwissenschaft</text>
+<attributes.specific program="ofb">
+<attr id="id">36</attr>
+<attr id="pos">34</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Wirtschaftsinformatik</text>
+<attributes.specific program="ofb">
+<attr id="id">37</attr>
+<attr id="pos">35</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Wirtschaftsingenieurwesen</text>
+<attributes.specific program="ofb">
+<attr id="id">38</attr>
+<attr id="pos">36</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Wirtschaftspsychologie</text>
+<attributes.specific program="ofb">
+<attr id="id">39</attr>
+<attr id="pos">37</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Wirtschaftsrecht</text>
+<attributes.specific program="ofb">
+<attr id="id">40</attr>
+<attr id="pos">38</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Wirtschaftswissenschaften</text>
+<attributes.specific program="ofb">
+<attr id="id">41</attr>
+<attr id="pos">39</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Zahnmedizin</text>
+<attributes.specific program="ofb">
+<attr id="id">42</attr>
+<attr id="pos">40</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Sonstiges</text>
+<textinput>yes</textinput>
+<attributes.specific program="ofb">
+<attr id="id">43</attr>
+<attr id="pos">41</attr>
+<attr id="width">200</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Hochschultyp</description>
+<class>select</class>
+<title>Welchen Hochschultyp besuchst du?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Universität</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Hochschule für angewandte Wissenschaften / Fachhochschule</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Pädagogische Hochschule</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Kunst-/Musikhochschule</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Theologische Hochschule </text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Duale Hochschule</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Sonstiges</text>
+<textinput>yes</textinput>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">7</attr>
+<attr id="width">200</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Bundesland</description>
+<class>select</class>
+<title>In welchem Bundesland ist deine Hochschule?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Baden-Württemberg</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Bayern</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Berlin</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Brandenburg</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Bremen</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Hamburg</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Hessen</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Mecklenburg-Vorpommern</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Niedersachsen</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Nordrhein-Westfalen</text>
+<attributes.specific program="ofb">
+<attr id="id">10</attr>
+<attr id="pos">10</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Rheinland-Pfalz</text>
+<attributes.specific program="ofb">
+<attr id="id">11</attr>
+<attr id="pos">11</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Saarland</text>
+<attributes.specific program="ofb">
+<attr id="id">12</attr>
+<attr id="pos">12</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Sachsen</text>
+<attributes.specific program="ofb">
+<attr id="id">13</attr>
+<attr id="pos">13</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Sachsen-Anhalt</text>
+<attributes.specific program="ofb">
+<attr id="id">14</attr>
+<attr id="pos">14</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Schleswig Holstein</text>
+<attributes.specific program="ofb">
+<attr id="id">15</attr>
+<attr id="pos">15</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Thüringen</text>
+<attributes.specific program="ofb">
+<attr id="id">16</attr>
+<attr id="pos">16</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Abschluss</description>
+<class>select</class>
+<title>
+<![CDATA[Welchen Abschluss strebst du aktuell an?
+]]>
+</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>Bachelor</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Bachelor (Lehramt)</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Master</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Master (Lehramt)</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Staatsexamen</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Promotion</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>Sonstiges</text>
+<textinput>yes</textinput>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">7</attr>
+<attr id="width">200</attr>
+</attributes.specific>
+</item>
+</question>
+<question>
+<description>Semester</description>
+<class>select</class>
+<title>In welchem Studiensemester bist du aktuell (wenn du alle deine Semester an einer Hochschule zählst)?</title>
+<explanation />
+<inputPosition>right</inputPosition>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">7</attr>
+<attr id="restrictions.answered">yes</attr>
+</attributes.specific>
+<item>
+<text>1. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">1</attr>
+<attr id="pos">1</attr>
+</attributes.specific>
+</item>
+<item>
+<text>2. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">2</attr>
+</attributes.specific>
+</item>
+<item>
+<text>3. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">3</attr>
+<attr id="pos">3</attr>
+</attributes.specific>
+</item>
+<item>
+<text>4. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">4</attr>
+<attr id="pos">4</attr>
+</attributes.specific>
+</item>
+<item>
+<text>5. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">5</attr>
+<attr id="pos">5</attr>
+</attributes.specific>
+</item>
+<item>
+<text>6. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">6</attr>
+<attr id="pos">6</attr>
+</attributes.specific>
+</item>
+<item>
+<text>7. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">7</attr>
+<attr id="pos">7</attr>
+</attributes.specific>
+</item>
+<item>
+<text>8. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">8</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+</item>
+<item>
+<text>9. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">9</attr>
+<attr id="pos">9</attr>
+</attributes.specific>
+</item>
+<item>
+<text>10. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">10</attr>
+<attr id="pos">10</attr>
+</attributes.specific>
+</item>
+<item>
+<text>11. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">11</attr>
+<attr id="pos">11</attr>
+</attributes.specific>
+</item>
+<item>
+<text>12. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">12</attr>
+<attr id="pos">12</attr>
+</attributes.specific>
+</item>
+<item>
+<text>13. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">13</attr>
+<attr id="pos">13</attr>
+</attributes.specific>
+</item>
+<item>
+<text>14. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">14</attr>
+<attr id="pos">14</attr>
+</attributes.specific>
+</item>
+<item>
+<text>15. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">15</attr>
+<attr id="pos">15</attr>
+</attributes.specific>
+</item>
+<item>
+<text>16. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">16</attr>
+<attr id="pos">16</attr>
+</attributes.specific>
+</item>
+<item>
+<text>17. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">17</attr>
+<attr id="pos">17</attr>
+</attributes.specific>
+</item>
+<item>
+<text>18. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">18</attr>
+<attr id="pos">18</attr>
+</attributes.specific>
+</item>
+<item>
+<text>19. Semester</text>
+<attributes.specific program="ofb">
+<attr id="id">19</attr>
+<attr id="pos">19</attr>
+</attributes.specific>
+</item>
+<item>
+<text>20. Semester oder mehr</text>
+<attributes.specific program="ofb">
+<attr id="id">20</attr>
+<attr id="pos">20</attr>
+</attributes.specific>
+</item>
+</question>
+</section>
+<section>
+<title>Texte</title>
+<attributes.specific program="ofb">
+<attr id="id">T1</attr>
+<attr id="pos">8</attr>
+</attributes.specific>
+<question>
+<description>Anfang Text</description>
+<class>TextContent</class>
+<title />
+<explanation />
+<inputPosition>right</inputPosition>
+<lead>
+<![CDATA[<p>Liebe Studentin, lieber Student,</p>
+
+<p>herzlich willkommen zu unserer Umfrage über die Nutzung von KI-Systemen wie ChatGPT im Studienkontext. Unsere Umfrage richtet sich an Studierende an Hochschulen in Deutschland.
+Auch wenn du noch keine Erfahrungen mit KI-Systemen im Hochschulkontext gesammelt hast, ist deine Meinung für unsere Studie hilfreich. 
+</p>
+
+<p>Falls du Fragen oder Anmerkungen zu der Umfrage hast, melde dich gerne unter spannagel@ph-heidelberg.de. 
+</p>
+
+<p>Vielen Dank für deine Teilnahme!</p>
+
+<p>Laura Hahn (TU Darmstadt) und Christian Spannagel (PH Heidelberg)</p>
+<p>&nbsp;</p>
+<p><i>Einverständniserklärung:
+Bei dieser Befragung handelt es sich um eine wissenschaftliche Studie. Die Umfrage ist anonym, und alle erhobenen Daten werden streng vertraulich behandelt und ausschließlich für wissenschaftliche Zwecke verwendet. Es werden keine personenbezogenen Daten erhoben. Ein Personenbezug kann anhand der erhobenen Daten nicht hergestellt werden. Es sind keine Rückschlüsse auf Teilnehmer*innen möglich.
+Die Teilnahme an der Befragung ist freiwillig und kann jederzeit ohne Angabe von Gründen abgebrochen werden. Indem Du an der Umfrage teilnimmst, erklärst du dein Einverständnis zu den genannten Informationen.
+</i></p>
+]]>
+</lead>
+<order>default</order>
+<attributes.specific program="ofb">
+<attr id="id">2</attr>
+<attr id="pos">1</attr>
+<attr id="alignment">default</attr>
+<attr id="character">html</attr>
+</attributes.specific>
+</question>
+</section>
+<layoutTexts>
+<layoutText id="default.imprint"><txt lng="deu"><![CDATA[<a href="mailto: spannagel@ph-heidelberg.de ; laura.hahn@stud.tu-darmstadt.de">B.A. Laura Hahn (TU Darmstadt) &amp; Prof. Dr. Christian Spannagel (PH Heidelberg)</a> – 2024]]></txt></layoutText>
+</layoutTexts>
+<questionnaire>
+<title>Fragebogen</title>
+<attributes.specific program="ofb">
+<attr id="id">base</attr>
+<attr id="content">
+<![CDATA[<?xml version="1.0"?>
+<questionnaire>
+
+<!-- Seite 1 -->
+<page intID="16">
+<question id="T102" intID="18" />
+</page>
+
+
+<!-- Seite 2 -->
+<page ident="Nutzung" intID="1">
+<question id="N101" intID="2" />
+</page>
+
+
+<!-- Seite 3 -->
+<page intID="37">
+<question id="N106" intID="5" />
+<question id="N103" intID="39" />
+<question id="N104" intID="3" />
+</page>
+
+
+<!-- Seite 4 -->
+<page ident="Wissen" intID="6">
+<question id="W101" intID="7" />
+<question id="W102" intID="8" />
+</page>
+
+
+<!-- Seite 5 -->
+<page ident="Wahrnehmung" intID="9">
+<question id="W201" intID="10" />
+</page>
+
+
+<!-- Seite 6 -->
+<page intID="4">
+<question id="W202" intID="11" />
+</page>
+
+
+<!-- Seite 7 -->
+<page ident="Bewertungen" intID="15">
+<question id="B106" intID="21" />
+<question id="B102" intID="17" />
+</page>
+
+
+<!-- Seite 8 -->
+<page ident="Pruefungen" intID="22">
+<question id="P101" intID="24" />
+</page>
+
+
+<!-- Seite 9 -->
+<page intID="12">
+<question id="P102" intID="13" />
+<question id="P104" intID="14" />
+</page>
+
+
+<!-- Seite 10 -->
+<page ident="Bedenken" intID="28">
+<question id="B201" intID="29" />
+</page>
+
+
+<!-- Seite 11 -->
+<page ident="Person" intID="30">
+<question id="P201" intID="31" />
+<question id="P202" intID="32" />
+<question id="P203" intID="33" />
+<question id="P204" intID="34" />
+<question id="P205" intID="35" />
+<question id="P206" intID="36" />
+<question id="P208" intID="38" />
+</page>
+
+
+</questionnaire>]]>
+</attr>
+<attr id="goodbye">
+<![CDATA[<b>Vielen Dank für deine Teilnahme!</b>
+
+<p>Solltest du an den Ergebnissen der Umfrage interessiert sein, melde dich bitte per E-Mail an spannagel@ph-heidelberg.de . Als Betreff bitte "Ergebnisse KI Umfrage" angeben.</p>
+
+<p>Deine Antworten wurden gespeichert. Du kannst das Browser-Fenster nun schließen.</p>
+
+<p>Für Nutzer von SurveyCircle den Survey Code mit einem Klick einlösen: <a target="_blank" href="https://www.surveycircle.com/R7JY-HYFC-L4TP-3Q4J/">https://www.surveycircle.com/R7JY-HYFC-L4TP-3Q4J/</a></p>]]>
+</attr>
+<attr id="panelForm">no</attr>
+<attr id="selection">1</attr>
+<attr id="backbutton">yes</attr>
+<attr id="probePreset">no</attr>
+</attributes.specific>
+</questionnaire>
+<setting name="DataFilter" key="df" encoding="json">
+{"started.first":"","started.last":"","lastdata.first":"","lastdata.last":"","progress":"finished","dfStatus":2}</setting>
+</surveyProject>
